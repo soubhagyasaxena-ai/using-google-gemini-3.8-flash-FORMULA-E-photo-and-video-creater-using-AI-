@@ -1,0 +1,14 @@
+[project]
+name = "fe-genmedia-backend"
+version = "1.0.0"
+description = "Formula E Generative Media Kiosk Backend"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.28.0",
+    "google-genai>=2.22.0",
+    "google-cloud-storage>=2.14.0",
+    "pydantic>=2.6.0",
+    "python-multipart>=0.0.9",
+    "pillow>=10.2.0",
+    "aiofiles>=23.2.0"
+]
